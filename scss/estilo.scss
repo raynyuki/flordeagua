@@ -1,0 +1,25 @@
+@import "variables";
+@import "header";
+@import "footer";
+
+
+
+
+.futureslideshow{
+    padding: 0;
+}
+
+.tip{
+    padding: 15px;
+}
+
+p{
+    @include fontSetting;
+    color: darken(#B8B8DF, 20%);
+
+}
+
+body{
+    font-family: $fontFamily;
+    padding: -0;
+}
