@@ -27,6 +27,7 @@
 /*estilo footer*/
 footer {
   background-color: #ededf7;
+  padding-top: 5px;
   font-family: "Dosis", sans-serif;
   font-weight: 600;
   color: #B8B8DF;
@@ -41,17 +42,19 @@ footer a {
 }
 
 /*fin de estilo footer*/
-.carousel-inner img {
-  margin: auto;
-  width: 100%;
+.cardContainer {
+  padding-bottom: 30px;
+  padding-top: 10px;
 }
 
-.banner {
+.calendarioImagen {
+  padding-bottom: 30px;
   padding-top: 30px;
-  padding-bottom: 20px;
 }
-.banner .banner_img {
-  width: 100%;
+
+.tip_img {
+  float: left;
+  height: max-content;
 }
 
 .tip {
@@ -59,6 +62,21 @@ footer a {
 }
 .tip p {
   padding: 20px;
+}
+
+.aboutUs {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.aboutUs .aboutus__img {
+  float: left;
+  height: max-content;
+  padding-right: 15px;
+}
+
+.carousel-inner img {
+  margin: auto;
+  width: 100%;
 }
 
 p {
@@ -72,30 +90,12 @@ body {
   padding: 0;
 }
 
-.aboutUs {
+.banner {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
-.aboutUs .aboutus__img {
-  float: left;
-  height: max-content;
-  padding-right: 15px;
-}
-
-.cardContainer {
-  padding-bottom: 30px;
-  padding-top: 10px;
-}
-
-.calendarioImagen {
-  padding-bottom: 30px;
-  padding-top: 30px;
-}
-
-@media (max-width: 768px) {
-  .card__img {
-    width: 200%;
-  }
+.banner .banner_img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=estilo.css.map */

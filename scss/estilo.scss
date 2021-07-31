@@ -1,28 +1,13 @@
 @import "variables";
 @import "header";
 @import "footer";
+@import "cardcontainer";
 
 
 .carousel-inner img {
     margin: auto;
     width: 100%;
   }
-
-
-.banner{
-    padding-top: 30px;
-    padding-bottom: 20px;
-    & .banner_img{
-        width: 100%;
-    }
-}
-
-.tip{
-    padding: 15px;
-    & p {
-        padding: 20px;
-    }
-}
 
 p{
     @include fontSetting;
@@ -35,34 +20,19 @@ body{
     padding: -0;
 }
 
-.aboutUs{
+.banner{
     padding-top: 30px;
-    padding-bottom: 30px;
-    
-    .aboutus__img{
-        float: left;
-        height:max-content;
-        padding-right: 15px;
+    padding-bottom: 20px;
+    & .banner_img{
+        width: 100%;
     }
 }
 
 
 
-.cardContainer{
-    padding-bottom: 30px;
-    padding-top: 10px;
-
-}
 
 
-.calendarioImagen{
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
 
-@media (max-width: 768px) {
-    .card__img {
-    width: 200%;
-        }
-}
+
+
 

@@ -2,6 +2,7 @@
 
 footer{
     background-color: lighten(#B8B8DF, 15%); 
+    padding-top: 5px;
     @include fontSetting;
     color: #B8B8DF ;
     & a{
