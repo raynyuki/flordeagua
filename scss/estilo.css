@@ -1,0 +1,101 @@
+/*estilos header*/
+.navbar {
+  padding-bottom: 30px;
+}
+.navbar .nav-link {
+  color: #8383c7;
+  text-decoration: none;
+}
+.navbar .nav-link.active {
+  color: #fca011;
+}
+.navbar .nav-link:hover {
+  color: #4f4faf;
+}
+
+.logotitle {
+  color: #8383c7;
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-size: 45px;
+}
+.logotitle:hover {
+  color: #4f4faf;
+}
+
+/*fin de estilos header*/
+/*estilo footer*/
+footer {
+  background-color: #ededf7;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  color: #B8B8DF;
+}
+footer a {
+  padding: 5px;
+}
+
+.ig__img {
+  width: 30px;
+  height: 30px;
+}
+
+/*fin de estilo footer*/
+.carousel-inner img {
+  margin: auto;
+  width: 100%;
+}
+
+.banner {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.banner .banner_img {
+  width: 100%;
+}
+
+.tip {
+  padding: 15px;
+}
+.tip p {
+  padding: 20px;
+}
+
+p {
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  color: #7272bf;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  padding: 0;
+}
+
+.aboutUs {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.aboutUs .aboutus__img {
+  float: left;
+  height: max-content;
+  padding-right: 15px;
+}
+
+.cardContainer {
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.calendarioImagen {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .card__img {
+    width: 200%;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
