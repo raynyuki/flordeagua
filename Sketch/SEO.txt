@@ -1,0 +1,14 @@
+Agregue los siguientes items:
+
+  <!--Etiquetas-->
+    <meta name="description" content="Jardineria tips y cursos">
+    <meta name="keywords" content="jardineria, cursos, calendario, siembra">
+    <meta name="author" content="Agustina Firpo">
+    <!--Open Graph-->
+    <meta property="og:title" content="Flor de Agua - Home">
+    <meta property="og:description" content="Jardineria - Home">
+    <!--Titulo-->
+    <title>Flor de Agua - Jardineria Facil</title>
+
+para cada pagina de la web
+
