@@ -4,16 +4,17 @@ footer{
     background-color: lighten(#B8B8DF, 15%); 
     padding-top: 5px;
     @include fontSetting;
-    color: #B8B8DF ;
+    color: darken(#B8B8DF, 15%); ;
     & a{
         padding: 5px;
+        color: darken(#B8B8DF, 20%);
+        text-decoration:none;
+        &:hover{
+            color: #fca011;
+        }
     }
-
-}
-
-.ig__img{
-    width:30px;
-    height:30px;
+  
+    
 }
 
 
