@@ -30,15 +30,15 @@ footer {
   padding-top: 5px;
   font-family: "Dosis", sans-serif;
   font-weight: 600;
-  color: #B8B8DF;
+  color: #8383c7;
 }
 footer a {
   padding: 5px;
+  color: #7272bf;
+  text-decoration: none;
 }
-
-.ig__img {
-  width: 30px;
-  height: 30px;
+footer a:hover {
+  color: #fca011;
 }
 
 /*fin de estilo footer*/
@@ -87,6 +87,7 @@ p {
 
 body {
   font-family: "Dosis", sans-serif;
+  max-height: 100vh;
   padding: 0;
 }
 
