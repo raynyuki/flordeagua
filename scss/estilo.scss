@@ -17,10 +17,14 @@ p{
 
 body{
     font-family: $fontFamily;
+    max-height: 100vh;
     padding: -0;
 }
 
 .banner{
+    max-width: 100%;
+    padding-left: -0;
+    padding-right: -0;
     padding-top: 30px;
     padding-bottom: 20px;
     & .banner_img{
